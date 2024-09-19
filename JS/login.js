@@ -18,7 +18,7 @@ Pin Number: ${pinNumber}`);
 
         if(phoneNumber === '01788172639' && pinNumber === '172639'){
             console.log('You are logged in');
-            window.location.href = '/home.html';
+            window.location.href = 'home.html';
         }
         else{
             alert('Wrong phone number or pin')
